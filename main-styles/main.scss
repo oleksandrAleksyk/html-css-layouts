@@ -1,0 +1,47 @@
+@import './common/fonts';
+
+.main-page {
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: $primary-font;
+
+    background-color: #0e3e5a;
+    color: white;
+
+    div {
+        .main-page-title {
+            text-decoration: underline;
+        }
+
+        .main-page-nav-header {
+            font-weight: 400;
+        }
+
+        .main-page-nav-list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            list-style-type: none;
+            padding: 0px;
+        }
+
+        .main-page-nav-item {
+            a {
+                font-weight: 800;
+                color: inherit;
+            }
+        }
+    }
+}
